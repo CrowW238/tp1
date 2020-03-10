@@ -81,17 +81,17 @@ public class Porto {
         }
         return total; }
      public static void main(String[] args) {
-        Porto porto = new Porto(3);
+        Porto porto = new Porto(5);
 
-        Petroleiro petro1 = new Petroleiro("P1"); petro1.setCarga(200);
+        Petroleiro petro1 = new Petroleiro("P1"); petro1.setCarga(23);
 
-        PortaContentores pConta1 = new PortaContentores("PC01"); pConta1.setNoContentores(150);
+        PortaContentores pConta1 = new PortaContentores("PC01"); pConta1.setNoContentores(23);
 
-        PortaContentores pConta2 = new PortaContentores("PC02"); pConta2.setNoContentores(30);
+        PortaContentores pConta2 = new PortaContentores("PC02"); pConta2.setNoContentores(54);
 
         Navios n = new Navios("N01");
 
-        Petroleiro petro2 = new Petroleiro("P2"); petro2.setCarga(20);
+        Petroleiro petro2 = new Petroleiro("P2"); petro2.setCarga(240);
 
         porto.addNavio(petro1);
         porto.addNavio(petro2);
